@@ -1,23 +1,23 @@
 public class Question {
-	int questionID;
-	String questionText;
-	String answerText;
-	QuestionResult result = QuestionResult.NotAnswered;
-	int triedCount =0 ;
+	private int questionID;
+	public String questionText;
+	public String answerText;
+	public QuestionResult result = QuestionResult.NotAnswered;
+	public int triedCount =0 ;
 	
-	Question (String question, String answer){
+	public Question (String question, String answer){
 		
 	}
-	ArrayList<char> getAnswerCharList(){
+	public ArrayList<char> getAnswerCharList(){
 		
 	}
-	int getAnswerCharCount(){
+	public int getAnswerCharCount(){
 		
 	}
-	ArrayList<char> getChoice(){
+	public ArrayList<char> getChoice(){
 		
 	}
-	QuestionResult submitAndswer(char c){
+	public QuestionResult submitAndswer(char c){
 		
 	}
  }
