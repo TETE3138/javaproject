@@ -6,7 +6,8 @@ public class Question {
 	public int triedCount =0 ;
 	
 	public Question (String question, String answer){
-		
+		this.questionText = question;
+		this.answerText = answer;
 	}
 	public ArrayList<char> getAnswerCharList(){
 		
