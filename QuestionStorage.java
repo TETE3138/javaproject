@@ -2,7 +2,7 @@ public class QuestionStorage {
 
         boolean isDBConnected;
         
-        Question getQuestionByRandom(){
+       public Question getQuestionByRandom(){
         
         }
         
